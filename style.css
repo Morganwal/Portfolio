@@ -1,0 +1,42 @@
+.container {
+  padding-top: 250px;
+  text-align: center;
+  background-color: grey;
+  margin: auto;
+  width: 50%;
+  min-width: 350px;
+  color: grey;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  padding-bottom: 200px;
+
+}
+
+a.button {
+   background-color: black;
+   border: grey solid 1px;
+   color: grey;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 30px;
+   border-radius: 12px;
+   margin-left: 200px;
+   margin-bottom: 70px;
+}
+
+.arrow {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 50px;
+}
+
+h2, .dream {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+body {
+  background-image: url("/Users/morganwalstrom/Downloads/pattern.png");
+
+}
