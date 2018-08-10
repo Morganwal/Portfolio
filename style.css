@@ -1,42 +1,53 @@
 .container {
-  padding-top: 250px;
   text-align: center;
   background-color: grey;
-  margin: auto;
+  margin:auto;
+  margin-bottom: 200px;
   width: 50%;
   min-width: 350px;
   color: grey;
   font-family: 'Lobster', cursive;
   font-size: 25px;
-  padding-bottom: 200px;
-
-}
-
-a.button {
+  border: solid grey 2px;
+  margin-top: 250px;
+  padding: 10px;
+ }
+ a.button {
    background-color: black;
    border: grey solid 1px;
    color: grey;
-   padding: 15px 32px;
+   padding: 20px;
+   padding-top: 10px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 30px;
    border-radius: 12px;
-   margin-left: 200px;
-   margin-bottom: 70px;
+   height: 30px;
+   margin-top: 30px;
+   margin-left: 150px;
+
 }
 
-.arrow {
-  height: 100px;
+ .arrow {
+  height: 90px;
   width: 100px;
-  margin-bottom: 50px;
+  margin-left: 70px;
 }
-
-h2, .dream {
+ h2, .dream {
   margin-bottom: 0px;
   margin-top: 0px;
 }
-body {
-  background-image: url("/Users/morganwalstrom/Downloads/pattern.png");
+
+.Reality-Arrow {
+  width: 587px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
 }
+
+body {
+  background-image: url("/Users/morganwalstrom/Downloads/pattern.png");
+ }
