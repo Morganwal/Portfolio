@@ -12,6 +12,7 @@
   margin-top: 250px;
   padding: 10px;
  }
+
  a.button {
    background-color: black;
    border: grey solid 1px;
@@ -24,8 +25,7 @@
    font-size: 30px;
    border-radius: 12px;
    height: 30px;
-   margin-top: 30px;
-   margin-left: 150px;
+
 
 }
 
@@ -34,18 +34,29 @@
   width: 100px;
   margin-left: 70px;
 }
+
  h2, .dream {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-.Reality-Arrow {
-  width: 587px;
+.reality-arrow  {
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
 
+.reality-arrow div {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.reality-arrow div img {
+  position: absolute;
+  top: -10px;
+  left: 120px;
 }
 
 body {
